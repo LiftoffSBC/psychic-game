@@ -1,10 +1,20 @@
 body {
-    background-color: green;
+    background-image: url("../images/books_1920x1080.jpg")
 }
 
-
-p {
-    font-family: verdana;
+#game {
+    padding: 100px;
     font-size: 40px;
-    color: black
+    color: black;
+    background-color: rgba(119, 116, 116, 0.315);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#guess {
+    font-weight: bold;
+    text-align: center;
+}
+
+#wins, #losses, #gl {
+    text-align: right;
 }

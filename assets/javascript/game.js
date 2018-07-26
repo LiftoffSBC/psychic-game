@@ -5,7 +5,7 @@
     var guessesLeft = 9;
 document.onkeyup = function (event) {
     var userGuess = event.key;
-
+    console.log (userGuess)
     var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
     if (computerChoices.includes(userGuess)) {
